@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>wach shop</title>
+    <link rel="stylesheet" href="style/app.css" type="text/css">
+    <link rel="stylesheet" href="style/main.css" type="text/css">
+    
+    <link rel="title icon" href="img/a1.jpg" type="image/jpg">
+    
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CDN CSS -->
+    <!-- <link rel="stylesheet" href="bootstrap-code/bootstrap.min.css"> -->
+
+    <!-- Bootstrap CDN CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+</head>
+<body>
+    
+
+    <!-- header -->
+    <header>
+        <!-- nav-top -->
+        <section class="">
+            <div class="nav-top">
+                <div class="nav-top-right">
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                    <a href=""><span>پیشتیبانی : 09055102525</span></a>
+                    <a href="#"><i class="far fa-calendar-alt"></i></a>
+                    <a href=""><span>پیگیری سفارش : 05156843512</span></a>
+                </div>
+                <div class="nav-top-left">
+                    <i class="fas fa-user"></i>
+                    <a href=""><span>ورود</span></a>
+                    <span>/</span>
+                    <a href=""><span>ثبت نام</span></a>
+                </div>
+            </div>            
+        </section>
+        <!-- End of nav-top -->
+        
+        <!-- nav-center -->
+        <section>
+            <div class="continer1">
+                <div class="row nav-center">
+                    <div class="col-lg-3 col-md-4  nav-center-right">
+                        <img src="img/logo1.png" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-8  nav-center-center">
+                        <div class="btn-serche">
+                            <input type="text" class="">
+                            <button>جستجو</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12  nav-center-left">
+                        <img src="img/logo2.PNG" alt="">
+                        <div>
+                            <span style="font-weight: bold;">سرویس ارسال اکسپرس</span>
+                            <span>ارسال رایگان بالای 50 هزارتومان</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of nav-center -->
+        <!-- nav-button -->
+        <section>
+            <div class="continer1">
+                <div class="nav-button">
+                    <div class="nav-button-right">
+                        <ul>
+                            <li><a href="#" class="">گوشی هوشمند</a></li>
+                            <li><a href="#" class="">لب تاپ</a></li>
+                            <li><a href="#" class="">هدفون و هندسفری</a></li>
+                            <li><a href="#" class="">ساعت هوشمند</a></li>
+                            <li><a href="#" class="">قاب و محافظ</a></li>
+                            <li><a href="#" class="">اسپیگر</a></li>
+                            <li><a href="#" class="">گجت های پوشیدنی</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-button-left">
+                        <a href="#"><img src="img/nav1.PNG" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of nav-button -->
+        <!-- banner -->
+        <section class="slide">
+            <!-- // -->
+            <div class="continer1 item active slides" id="slide1">
+                <div class="row">
+                    <div class="col-lg-auto banner">
+                       <img src="img/banner1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+            <!-- // -->
+            <div class="continer1 item slides" id="slide2">
+                <div class="row">
+                    <div class="col-lg-auto banner">
+                       <img src="img/banner2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+            <!-- btn -->
+            <div class="banner-btn">
+                <i onclick="setSlide('slide1' , 1)" class="fas fa-circle"></i>
+                <i onclick="setSlide('slide2' , 2)" class="fas fa-circle"></i>
+            </div>
+
+        </section>
+        <!-- End of banner -->
+    </header>
+    <!-- End of header -->
+
+    <!-- main -->
+    <main>
+        <!-- sec-caed-1 -->
+        <section>
+            <div class="continer1 ">
+                <div class="row text-center ">
+                    <div class="col-lg-4 main-sec1-card">
+                        <a href=""><h2>هدفون ها</h2></a>
+                        <a href=""><span>تا 15% تخفیف</span></a>
+                        <img src="img/main-sec1-card1.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4 main-sec1-card">
+                        <a href=""><h2>هدفون ها</h2></a>
+                        <a href=""><span>تا 15% تخفیف</span></a>
+                        <img src="img/main-sec1-card2.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4 main-sec1-card">
+                        <a href=""><h2>هدفون ها</h2></a>
+                        <a href=""><span>تا 15% تخفیف</span></a>
+                        <img src="img/main-sec1-card3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of sec-caed-1 -->
+
+        <!-- sec-card-2 -->
+        <section>
+            <div class="continer1">
+                <div class="title">
+                    <span>محصولات پرفروش</span>
+                </div>
+                <!-- // -->
+                <div class="row1">
+                    <div class="col sec-card-2 ">
+                        <p>موجودی رو به اتمام</p>
+                        <h6>35 درصد</h6>
+                        <img src="img/main-sec2-card1.png" alt="">
+                        <a href=""><span>ساعت هوشمند اپل واچ مدل mm Gold Aluminasdum Band</span></a>
+                        <span >۲,۰۸۰,۰۰۰ تومان</span>
+                        <button class="" >افزودن به سبد خرید</button>
+                    </div>
+                    <div class="col sec-card-2">
+                        <img src="img/main-sec2-card2.png" alt="">
+                        <a href=""><span>ساعت هوشمند اپل واچ مدل mm Gold Aluminasdum Band</span></a>
+                        <span >۲,۰۸۰,۰۰۰ تومان</span>
+                        <button>افزودن به سبد خرید</button>
+                    </div>
+                    <div class="col sec-card-2">
+                        <img src="img/main-sec2-card3.png" alt="">
+                        <a href=""><span>ساعت هوشمند اپل واچ مدل mm Gold Aluminasdum Band</span></a>
+                        <span >۲,۰۸۰,۰۰۰ تومان</span>
+                        <button>افزودن به سبد خرید</button>
+                    </div>
+                    <div class="col sec-card-2">
+                        <p>کیفیت ساخت عالی</p>
+                        <h6>12 درصد</h6>
+                        <img src="img/main-sec2-card4.png" alt="">
+                        <a href=""><span>ساعت هوشمند اپل واچ مدل mm Gold Aluminasdum Band</span></a>
+                        <span class="text-danger">۲,۰۸۰,۰۰۰ تومان</span>
+                        <button>افزودن به سبد خرید</button>
+                    </div>
+                </div>
+                <!-- // -->
+                <div class="row1">
+                    <div class="col sec-card-2">
+                        <p>موجودی رو به اتمام</p>
+                        <h6>10 درصد</h6>
+                        <img src="img/main-sec2-card5.png" alt="">
+                        <a href=""><span>ساعت هوشمند اپل واچ مدل mm Gold Aluminasdum Band</span></a>
+                        <span >۲,۰۸۰,۰۰۰ تومان</span>
+                        <button>افزودن به سبد خرید</button>
+                    </div>
+                    <div class="col sec-card-2">
+                        <p>پیشنهاد سگفت انگیز</p>
+                        <h6>20 درصد</h6>
+                        <img src="img/main-sec2-card6.png" alt="">
+                        <a href=""><span>ساعت هوشمند اپل واچ مدل mm Gold Aluminasdum Band</span></a>
+                        <span >۲,۰۸۰,۰۰۰ تومان</span>
+                        <button>افزودن به سبد خرید</button>
+                    </div>
+                    <div class="col sec-card-2">
+                        <img src="img/main-sec2-card7.png" alt="">
+                        <a href=""><span>ساعت هوشمند اپل واچ مدل mm Gold Aluminasdum Band</span></a>
+                        <span >۲,۰۸۰,۰۰۰ تومان</span>
+                        <button>افزودن به سبد خرید</button>
+                    </div>
+                    <div class="col sec-card-2">
+                        <img src="img/main-sec2-card8.png" alt="">
+                        <a href=""><span>ساعت هوشمند اپل واچ مدل mm Gold Aluminasdum Band</span></a>
+                        <span class="text-danger">۲,۰۸۰,۰۰۰ تومان</span>
+                        <button>افزودن به سبد خرید</button>
+                    </div>
+                </div>
+                <!-- // -->
+            </div>
+        </section>
+        <!-- End of sec-card-2 -->
+
+        <!-- feucher -->
+        <section>
+            <div class="continer1">
+                <div class="row feucher-bg">
+                    <div class="col-lg-5 feucher">
+                        <span>پیشنهادات ویژه سپند تا 50% تخفیف</span>
+                        <button>مشاهده تخفیف های امروز</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End of feucher -->
+
+
+
+         <!-- sec-card-4 -->
+         <section>
+            <div class="continer1">
+                <div class="title">
+                    <span>جدیدترین محصولات</span>
+                </div>
+                <!-- // -->
+                <div class="row1">
+                    <div class="col sec-card-2">
+                        <p>موجودی رو به اتمام</p>
+                        <h6>35 درصد</h6>
+                        <img src="img/main-sec2-card1.png" alt="">
+                        <a href=""><span>ساعت هوشمند اپل واچ مدل mm Gold Aluminasdum Band</span></a>
+                        <span >۲,۰۸۰,۰۰۰ تومان</span>
+                        <button>افزودن به سبد خرید</button>
+                    </div>
+                    <div class="col sec-card-2">
+                        <img src="img/main-sec2-card2.png" alt="">
+                        <a href=""><span>ساعت هوشمند اپل واچ مدل mm Gold Aluminasdum Band</span></a>
+                        <span >۲,۰۸۰,۰۰۰ تومان</span>
+                        <button>افزودن به سبد خرید</button>
+                    </div>
+                    <div class="col sec-card-2">
+                        <img src="img/main-sec2-card3.png" alt="">
+                        <a href=""><span>ساعت هوشمند اپل واچ مدل mm Gold Aluminasdum Band</span></a>
+                        <span >۲,۰۸۰,۰۰۰ تومان</span>
+                        <button>افزودن به سبد خرید</button>
+                    </div>
+                    <div class="col sec-card-2">
+                        <p>کیفیت ساخت عالی</p>
+                        <h6>12 درصد</h6>
+                        <img src="img/main-sec2-card4.png" alt="">
+                        <a href=""><span>ساعت هوشمند اپل واچ مدل mm Gold Aluminasdum Band</span></a>
+                        <span class="text-danger">۲,۰۸۰,۰۰۰ تومان</span>
+                        <button>افزودن به سبد خرید</button>
+                    </div>
+                </div>
+                <!-- // -->
+                <div class="row1">
+                    <div class="col sec-card-2">
+                        <p>موجودی رو به اتمام</p>
+                        <h6>10 درصد</h6>
+                        <img src="img/main-sec2-card5.png" alt="">
+                        <a href=""><span>ساعت هوشمند اپل واچ مدل mm Gold Aluminasdum Band</span></a>
+                        <span >۲,۰۸۰,۰۰۰ تومان</span>
+                        <button>افزودن به سبد خرید</button>
+                    </div>
+                    <div class="col sec-card-2">
+                        <p>پیشنهاد سگفت انگیز</p>
+                        <h6>20 درصد</h6>
+                        <img src="img/main-sec2-card6.png" alt="">
+                        <a href=""><span>ساعت هوشمند اپل واچ مدل mm Gold Aluminasdum Band</span></a>
+                        <span >۲,۰۸۰,۰۰۰ تومان</span>
+                        <button>افزودن به سبد خرید</button>
+                    </div>
+                    <div class="col sec-card-2">
+                        <img src="img/main-sec2-card7.png" alt="">
+                        <a href=""><span>ساعت هوشمند اپل واچ مدل mm Gold Aluminasdum Band</span></a>
+                        <span >۲,۰۸۰,۰۰۰ تومان</span>
+                        <button>افزودن به سبد خرید</button>
+                    </div>
+                    <div class="col sec-card-2">
+                        <img src="img/main-sec2-card8.png" alt="">
+                        <a href=""><span>ساعت هوشمند اپل واچ مدل mm Gold Aluminasdum Band</span></a>
+                        <span class="text-danger">۲,۰۸۰,۰۰۰ تومان</span>
+                        <button>افزودن به سبد خرید</button>
+                    </div>
+                </div>
+                <!-- // -->
+            </div>
+        </section>
+        <!-- End of sec-card-4 -->
+
+        <!-- sec-card-5 -->
+        <section class="my-5">
+            <div class="continer1">
+                <div class="row">
+                    <div class="col-lg-8 sec-card-5-right">
+                        <!-- <img src="img/sec-card-4-bg.jpg" alt=""> -->
+                        <span>کلیه محصولات برند سامسونگ</span>
+                        <h2>ضمانت نامه 36 ماهه</h2>
+                        <button>مشاهده همه محصولات</button>
+                    </div>
+                    <div class="col-lg-3 sec-card-5-left">
+                        <a href="" class="sec5-a1"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="" class="sec5-a2"><span>در اینستاگرام ما را دنبال کنید</span></a>
+                        <a href="" class="mt-1"><span>مشاهده اخرین جشواره ی و تخفیف های محصولات جدید و اطلاع رسانی های فروشگاه</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of sec-card-5 -->
+
+        <!-- sec-card-6 -->
+        <section>
+            <div class="continer1">
+                <div class="title">
+                    <span>جست و جو بر اساس دسته بندی</span>
+                </div>
+                <div class="row1">
+                    <!-- // -->
+                    <div class="col sec6-card-img">
+                        <div class="top">
+                            <img src="img/main-sec2-card1.png" alt="">
+                        </div>
+                        <div class="button">
+                            <a href=""><span>ساعت هوشمند سامسونگ</span></a>
+                            <a href=""><span>اپل واچ</span></a>
+                            <a href=""><span>دسبد سلامتی</span></a>
+                        </div>
+                    </div>
+                    <!-- // -->
+                    <!-- // -->
+                    <div class="col sec6-card-img">
+                        <div class="top">
+                            <img src="img/main-sec2-card4.png" alt="">
+                        </div>
+                        <div class="button">
+                            <a href=""><span>ساعت هوشمند سامسونگ</span></a>
+                            <a href=""><span>اپل واچ</span></a>
+                            <a href=""><span>دسبد سلامتی</span></a>
+                        </div>
+                    </div>
+                    <!-- // -->
+                    <!-- // -->
+                    <div class="col sec6-card-img">
+                        <div class="top">
+                            <img src="img/sec-card-6-bg3.png" alt="">
+                        </div>
+                        <div class="button">
+                            <a href=""><span>ساعت هوشمند سامسونگ</span></a>
+                            <a href=""><span>اپل واچ</span></a>
+                            <a href=""><span>دسبد سلامتی</span></a>
+                        </div>
+                    </div>
+                    <!-- // -->
+                   <!-- // -->
+                    <div class="col sec6-card-img">
+                        <div class="top">
+                            <img src="img/sec-card-6-bg4.png" alt="">
+                        </div>
+                        <div class="button">
+                            <a href=""><span>ساعت هوشمند سامسونگ</span></a>
+                            <a href=""><span>اپل واچ</span></a>
+                            <a href=""><span>دسبد سلامتی</span></a>
+                        </div>
+                    </div>
+                    <!-- // -->
+
+                </div>
+            </div>
+        </section>
+        <!-- End of sec-card-6 -->
+
+        <section>
+            <div class="continer1">
+                <div class="title">
+                    <span>آخرین مطالب وبلاگ</span>
+                </div>
+                <div class="row3">
+                     <!-- // -->
+                     <div class="col sec6-card-img2">
+                        <div class="top">
+                            <img src="img/weblak1.jpg" alt="">
+                        </div>
+                        <div class="button">
+                            <a href=""><span>کدام نوع هدفون مناسب من است؟ تفاوت ایرفون، هندزفری و هدست
+                             </span></a>
+                            <a href="" class="text-info"><span>۰۴ دی</span></a>
+                        </div>
+                    </div>
+                    <!-- // -->
+                    <!-- // -->
+                    <div class="col sec6-card-img2">
+                        <div class="top">
+                            <img src="img/weblak2.jpg" alt="">
+                        </div>
+                        <div class="button">
+                            <a href=""><span>کدام نوع هدفون مناسب من است؟ تفاوت ایرفون، هندزفری و هدست
+                             </span></a>
+                            <a href="" class="text-info"><span>۰۴ دی</span></a>
+                        </div>
+                    </div>
+                    <!-- // -->
+                    <!-- // -->
+                    <div class="col sec6-card-img2">
+                        <div class="top">
+                            <img src="img/weblak3.jpg" alt="">
+                        </div>
+                        <div class="button">
+                            <a href=""><span>کدام نوع هدفون مناسب من است؟ تفاوت ایرفون، هندزفری و هدست
+                             </span></a>
+                            <a href="" class="text-info"><span>۰۴ دی</span></a>
+                        </div>
+                    </div>
+                    <!-- // -->
+                    <!-- // -->
+                    <div class="col sec6-card-img2">
+                        <div class="top">
+                            <img src="img/weblak4.jpg" alt="">
+                        </div>
+                        <div class="button">
+                            <a href=""><span>کدام نوع هدفون مناسب من است؟ تفاوت ایرفون، هندزفری و هدست
+                             </span></a>
+                            <a href="" class="text-info"><span>۰۴ دی</span></a>
+                        </div>
+                    </div>
+                    <!-- // -->
+                </div>
+            </div>
+        </section>
+        
+        <!-- sec-card-3 -->
+        <section>
+            <div class="continer1 mt-5">
+                <!-- // -->
+                <div class="row3">
+                    <div class="col-lg-3 logo  item2 active2" id="sec-card-2">
+                        <img src="img/main-logo1.png" alt="" id="img-card">
+                    </div>
+                    <div class="col-lg-3 logo  item2 active2" id="sec-card-3">
+                        <img src="img/main-logo2.png" alt="" id="img-card">                        
+                    </div>
+                    <div class="col-lg-3 logo  item2 active2" id="sec-card-4">
+                        <img src="img/main-logo3.png" alt="" id="img-card">
+                    </div>
+                    <div class="col-lg-3 logo  item2 active2" id="sec-card-4">
+                        <img src="img/main-logo4.png" alt="" id="img-card">
+                    </div>
+                </div>
+                <!-- // -->
+            </div>
+        </section>
+        <!-- End of sec-card-3 -->
+    </main>
+    <!-- End of main -->
+
+    <footer>
+        <section>
+            <div class="continer1">
+                <div class="row">
+                    <div class="col-lg-4 f-div">
+                        <img src="img/foother-img.png" alt="">
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. </p>
+                    </div>
+                    <div class="col-lg-3 f-div2">
+                        <h3>نحوه سفارش</h3>
+                        <a href=""><span>چطور سفارش بدم؟</span></a>
+                        <a href=""><span>شرایط ارسال؟</span></a>
+                        <a href=""><span>هزینه ارسال</span></a>
+                        <a href=""><span>چرا به شما اعتماد کنم؟</span></a>
+                        <a href=""><span>ضمانت چه شرایطی دارد؟</span></a>
+                        <a href=""><span>پرداخت هزینه</span></a>
+                    </div>
+                    <div class="col-lg-3 f-div2">
+                        <h3>درباره سپند</h3>
+                        <a href=""><span>درباره ی ما</span></a>
+                        <a href=""><span>تماس با ما</span></a>
+                        <a href=""><span>روش های ارسال کالا</span></a>
+                        <a href=""><span>سپند در شبکه های اجتماعی</span></a>
+                        <a href=""><span>تبلیغات</span></a>
+                        <a href=""><span>شرایط دعوت کالا</span></a>
+                    </div>
+                    <div class="col-lg-2 f-div2">
+                        <h3>اعتماد</h3>
+                        <a href=""><span>نماد الکترونیک</span></a>
+                        <a href=""><span>ضمانت بازگشت</span></a>
+                        <a href=""><span>باشگاه مشتریان</span></a>
+                        <a href=""><span>آدرس فروشگاه</span></a>
+                        <a href=""><span>مورد آزمایش</span></a>
+                        <a href=""><span>مورد آزمایش دو</span></a>
+                    </div>
+                </div>
+                <!-- // -->
+                <div class="row">
+                    <div class="col-lg-3 f-div3">
+                        <span>شماره تماس: 09055102528</span>
+                        <span>ایمیل پشتیبانی: abolfazl76.s.h.2020@gmail.com</span>
+                        <span>شبکه های اجتماعی: @sh.abolfazl76</span>
+                    </div>
+                    <div class="col-lg-8 f-div4">
+                        <span>تمام حقوق مادی و معنوی این سایت متعلق به فروشگاه آنلاین سپند می باشد.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+   <!-- Optional JavaScript -->
+   <script src="bootstrap-code/jquery-3.6.0.min.js"></script>
+   <script src="js/min.js"></script>
+   <script src="bootstrap-code/bootstrap.bundle.min.js"></script>
+   <!-- Optional JavaScript CDN -->
+   <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+    
+</body>
+</html>
